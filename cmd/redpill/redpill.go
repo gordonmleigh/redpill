@@ -1,8 +1,11 @@
 package main
 
-import "github.com/gordonmleigh/redpill"
-import "fmt"
-import "os"
+import (
+	"fmt"
+	"os"
+
+	"github.com/gordonmleigh/redpill"
+)
 
 func main() {
 	c, err := redpill.GetContainerID()
